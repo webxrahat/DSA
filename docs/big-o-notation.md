@@ -7,6 +7,8 @@
 - O(n log n) Sorting
 - O(2n) Exponential reccursion
 
+<hr style="border: 1px solid black;">
+
 1. O(1) — Constant Time
 
 ### Meaning
@@ -27,6 +29,8 @@ function getFirst(arr) {
 - Always 1 operation
 - No loops
 - No conditions depending on size
+
+<hr style="border: 1px solid black;">
 
 2. O(n) — Linear Time
 
@@ -60,6 +64,6 @@ function linearSearch(arr, target) {
 
 - “One loop = O(n)”
 
-<hr style="border: 1px solid gray;">
+<hr style="border: 1px solid black;">
 
 3. O(n²) — Quadratic Time
