@@ -27,3 +27,39 @@ function getFirst(arr) {
 - Always 1 operation
 - No loops
 - No conditions depending on size
+
+2. O(n) — Linear Time
+
+### Meaning
+
+- Time grows linearly with input size
+- If input doubles → work doubles
+
+### Example (Linear Search)
+
+```
+function linearSearch(arr, target) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === target) return i;
+  }
+  return -1;
+}
+```
+
+### Why O(n)?
+
+- Worst case: check every element
+- n elements → n steps
+
+### Real life example
+
+- Searching a name in an unsorted list
+- Finding a word in a paragraph
+
+### Remember
+
+- “One loop = O(n)”
+
+<hr style="border: 1px solid gray;">
+
+3. O(n²) — Quadratic Time
