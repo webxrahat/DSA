@@ -21,3 +21,9 @@ function getFirst(arr) {
   return arr[0];
 }
 ```
+
+### Why O(1)?
+
+- Always 1 operation
+- No loops
+- No conditions depending on size
